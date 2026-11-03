@@ -1,15 +1,11 @@
--- Patch34
--- Duplicate selected items to next measure
--- Duplicates selected media items one measure forward while preserving their beat offset, track, and item properties.
---
--- https://github.com/patch-34
-
--- @description Duplicate selected items to next measure
+-- @description Duplicate Selected Items to Next Measure
 -- @version 1.0.0
--- @author Patch34
+-- @author Aleksei Vorobev / Patch34
 -- @license MIT
+-- @link
+--   GitHub repository https://github.com/patch-34/duplicate-items-to-next-measure
 -- @about
---   Patch34 script. No js_ReaScriptAPI required.
+--   Duplicates selected items one measure forward while preserving their beat offset and item properties.
 
 local SCRIPT_NAME = "Duplicate selected items to next measure"
 local PROJECT = 0

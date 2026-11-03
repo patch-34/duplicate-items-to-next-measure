@@ -1,4 +1,6 @@
-# Patch34 — Duplicate selected items to next measure
+# Duplicate Selected Items to Next Measure
+
+**English** · [Русский](README_RU.md)
 
 A small REAPER Lua script that duplicates selected media items to the next measure instead of placing the duplicate directly after the item edge.
 
@@ -16,9 +18,15 @@ This is useful for one-shot samples, short sound design events, drums, and any e
 
 ## Installation
 
+### ReaPack
+
+Import the [Patch34 ReaPack catalog](https://raw.githubusercontent.com/patch-34/patch34-reapack/main/index.xml) via **Extensions → ReaPack → Import repositories…**. Locate **Duplicate Selected Items to Next Measure** under **Browse packages**, install and synchronize it.
+
+### Manual installation
+
 1. Download:
 
-   `Patch34 - Duplicate selected items to next measure.lua`
+   `Duplicate_Selected_Items_To_Next_Measure.lua`
 
 2. In REAPER, open:
 
@@ -42,7 +50,10 @@ If REAPER asks whether to remove `Ctrl+D` from the default duplicate action, con
 
 This script is different from REAPER's default `Item: Duplicate items` action. The default action places the duplicate immediately after the selected item's end. This script places the duplicate one measure later relative to the item's start position.
 
-## Author
 
-Patch34  
-https://github.com/patch-34
+
+## License and credits
+
+Distributed under the [MIT License](LICENSE).
+
+Author: [Aleksei Vorobev / Patch34](https://github.com/patch-34).
